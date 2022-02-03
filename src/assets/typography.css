@@ -1,0 +1,110 @@
+/* Elements */
+body {
+    background-color: #b67bf7;
+}
+
+title {
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 10vh;
+    text-decoration: underline;
+}
+
+span.value {
+    color: #FFA500;
+}
+
+a:-webkit-any-link {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* Classes */
+.main {
+    margin-left: 15rem;
+    width: auto;
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 13rem;
+    padding: 2rem 1rem;
+    background-color: white;
+    border-right: 2px groove #f7f7f6;
+}
+
+.nav-items {
+    width: auto;
+}
+
+.nav-item {
+    display: block;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2%;
+    padding: 6px 16px;
+    border: 2px solid;
+    border-radius: 16px;
+    border-color: black;
+    background-color: #efefef;
+    text-align: center;
+}
+
+.nav-item:hover {
+    background-color: #b67bf7;
+    cursor: pointer;
+}
+
+.graph-area {
+    margin-left: 15rem;
+    margin-bottom: 100px;
+}
+
+/* IDs */
+#section-1 {
+    margin-left: auto;
+    margin-right:auto;
+    width: 100%;
+    vertical-align: top;
+    text-align: center;
+}
+
+#section-2 {
+    font-family: "Comic Sans MS";
+    margin-left: auto;
+    margin-right:auto;
+    width: 100%;
+    vertical-align: bottom;
+    margin-top: 19%;
+    text-align: center;
+}
+
+#scatter-plot {
+    width: 90%;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    border: 2px solid #120202eb;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15%;
+    width: 100%;
+    object-fit: cover;
+    height: 120px;
+}
